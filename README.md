@@ -30,7 +30,7 @@ Request :
   "email": "string",
   "password": "string",
   "createdAt": "date",
-  "__v": number
+  "__v": "number"
 }
 ```
 
@@ -86,7 +86,7 @@ Request :
   "email": "string",
   "password": "string",
   "createdAt": "date",
-  "__v": number
+  "__v": "number"
 }
 ```
 
@@ -139,7 +139,7 @@ Request :
   "alamat": "string",
   "jenisKelamin":"string",
   "wali":"string",
-  "nilai":number,
+  "nilai":"number",
   "asal":"string"
 }
 ```
@@ -152,10 +152,10 @@ Request :
   "alamat": "string",
   "jenisKelamin": "string",
   "wali": "string",
-  "nilai": number,
+  "nilai": "number",
   "asal": "string",
   "tglTerdaftar": "date",
-  "__v": number
+  "__v": "number"
 }
 ```
 
@@ -176,10 +176,10 @@ Request :
     "alamat": "string",
     "jenisKelamin": "string",
     "wali": "string",
-    "nilai": number,
+    "nilai": "number",
     "asal": "string",
     "tglTerdaftar": "date",
-    "__v": number
+    "__v": "number"
   }
 ]
 ```
@@ -202,14 +202,14 @@ Request :
 * Respone :
 ```json
 {
-  "n": number,
+  "n": "number",
   "electionId": "string",
   "opTime": {
     "ts": "string",
-    "t": number
+    "t": "number"
   },
-  "nModified": number,
-  "ok": number,
+  "nModified": "number",
+  "ok": "number",
   "$clusterTime": {
     "clusterTime": "string",
     "signature": {
@@ -232,13 +232,13 @@ Request :
 * Respone :
 ```json
 {
-  "n": number,
+  "n": "number",
   "electionId": "string",
   "opTime": {
     "ts": "string",
-    "t": number
+    "t": "number"
   },
-  "ok": number,
+  "ok": "number",
   "$clusterTime": {
     "clusterTime": "string",
     "signature": {
@@ -247,6 +247,6 @@ Request :
     }
   },
   "operationTime": "string",
-  "deletedCount": number
+  "deletedCount": "number"
 }
 ```
